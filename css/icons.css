@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/icons.ttf?k7p9xc') format('truetype'), url('../fonts/icons.woff?k7p9xc') format('woff'), url('../fonts/icons.svg?k7p9xc#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow:before {
+    content: "\e900";
+    color: #fff;
+}
+
+._icon-cart:before {
+    content: "\e901";
+}
+
+._icon-facebook:before {
+    content: "\e902";
+    color: #d7b399;
+}
+
+._icon-five:before {
+    content: "\e903";
+    color: #d7b399;
+}
+
+._icon-instagram:before {
+    content: "\e904";
+    color: #d7b399;
+}
+
+._icon-logo:before {
+    content: "\e905";
+    color: #d7b399;
+}
+
+._icon-polygon:before {
+    content: "\e906";
+}
+
+._icon-vk-com:before {
+    content: "\e907";
+    color: #d7b399;
+}
