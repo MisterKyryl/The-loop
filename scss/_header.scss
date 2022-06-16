@@ -124,6 +124,33 @@
          justify-content: center;
          &__logo {
          display: flex;
+         margin: 0px 0px 0px 30px;
+      }
+         &__cart {
+         display: flex;
+         margin: 0px 0px 0px 40px;
+         flex-grow: 0;
+      }
+   }
+      .menu {
+         &__right {
+            margin: 0px 0px 0px 60px;
+         }
+         &__item:not(:last-child) {
+            margin: 0px 35px 0px 0px;
+         }
+      }
+      ._icon-cart {
+         margin: 0px 10px 0px 0px;
+      }  
+}
+// -------------------------------
+@media (max-width: 1023px) {
+      .header {
+         display: flex;
+         justify-content: center;
+         &__logo {
+         display: flex;
          margin: 0px 0px 0px 10px;
       }
          &__cart {
@@ -142,33 +169,6 @@
       }
       ._icon-cart {
          margin: 0px 10px 0px 0px;
-      }  
-}
-// --------------------------------
-@media (max-width: 899px) {
-      .header {
-         display: flex;
-         justify-content: center;
-         &__logo {
-         display: flex;
-         margin: 0px ;
-      }
-         &__cart {
-         display: flex;
-         margin: 0px 0px 0px 8px;
-         flex-grow: 0;
-      }
-   }
-      .menu {
-         &__right {
-            margin: 0px 0px 0px 8px;
-         }
-         &__item:not(:last-child) {
-            margin: 0px 7px 0px 0px;
-         }
-      }
-      ._icon-cart {
-         margin: 0px 8px 0px 0px;
       }  
 }
 // --------------Многоуровневое меню----------------
@@ -206,7 +206,7 @@ body._touch .menu__list > li._active .menu__sub-list {
    transform: rotate(-180deg);
 }
 // ------------------------------------------------
-@media (min-width: 767px) {
+@media (min-width: 899px) {
    .menu {
          &__link-burger {
             display: none;
@@ -229,7 +229,7 @@ body._touch .menu__list > li._active .menu__sub-list {
    }
 }
 // ----------------Бургер-----------------
-@media (max-width: 767px) {
+@media (max-width: 899px) {
 // ---------------Phone-------------
    .header {
       &__container {
@@ -237,6 +237,9 @@ body._touch .menu__list > li._active .menu__sub-list {
       }
       &__logo {
          transform: translate(-30%, 0px);
+      }
+      &__cart {
+         margin: 0px;
       }
    }
    ._icon-logo {
@@ -315,7 +318,7 @@ body._touch .menu__list > li._active .menu__sub-list {
          width: 100%;
          top: 0;
          left: 0;
-         height: 75px; // Поменять высоту шапку для разрешений меньше 767 px
+         height: 75px;
          background-color: #F9F6F1;
          z-index: 2;
       }
