@@ -121,6 +121,12 @@
 // -----------------------------------
 @media (max-width: 499px) {
    .main-block {
+      &__title {
+         font-size: 25px;
+      }
+      &__text {
+         font-size: 34px;
+      }
       &__text-discount {
          font-size: 20px;
       }
@@ -132,4 +138,17 @@
          max-width: 300px;
       }
    }
+}
+// -----------------------------------
+@media (max-width: 379px) {
+   .main-block {
+      &__text {
+         font-size: 30px;
+      }
+      &__img {
+         transform: translate(0%, -35%);
+         max-width: 280px;
+      }
+   }
+
 }
