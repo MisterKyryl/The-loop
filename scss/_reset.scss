@@ -52,6 +52,10 @@ body._lock {
    flex-direction: column;
 }
 
+.page {
+   flex: 1 1 auto;
+}
+
 ._container {
    max-width: 1110px;
    box-sizing: border-box;
