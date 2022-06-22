@@ -1,0 +1,103 @@
+.page {
+   &__model {
+   }
+}
+.model {
+   background-color: #fff;
+   padding: 150px 0px 152px 0px;
+   &__container {
+   }
+   &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 122%;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #212121;
+      margin: 0px 0px 100px 0px;
+   }
+   &__row {
+      display: flex;
+      margin: 0px -45px;
+   }
+   &__column {
+      flex: 0 1 25%;
+      padding: 0px 15px;
+   }
+   &__item {
+   }
+   &__button-sub {
+      display: flex;
+      justify-content: center;
+   }
+   &__button {
+      font-size: 16px;
+      line-height: 125%;
+      letter-spacing: 0.03em;
+      margin: 100px 0px 0px 0px;
+      padding: 17px 35px;
+   }
+   &__icon-arrow {
+      margin: 0px 0px 0px 9px;
+   }
+}
+.item-model {
+   &__row {
+      display: flex;
+      flex-direction: column;
+   }
+   &__line {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__body {
+      flex: 1 1 auto;
+      margin: 25px 0px 0px 0px;
+   }
+   &__image {
+      display: flex;
+      flex: 0 0 205px;
+      justify-content: center;
+   }
+   &__title {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 121%;
+      text-align: center;
+   }
+   &__text {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 122%;
+      text-align: center;
+      color: #D7B399;
+      margin: 10px 0px 0px 0px;
+   }
+}
+.line {
+   &__item-01 {
+      transform: rotate(0deg);
+   }
+   &__item-02 {
+      transform: rotate(90deg);
+   }
+   &__item-03 {
+      transform: rotate(-90deg);
+   }
+   &__item-04 {
+      transform: rotate(180deg);
+   }
+   &-01 {
+      width: 0;
+      height: 0;
+      border-right: 25px solid #D7B399;
+      border-bottom: 3px solid #D7B399;
+   }
+   &-02 {
+      width: 0;
+      height: 0;
+      border-right: 3px solid #D7B399;
+      border-top: 21px solid #D7B399;
+   }
+}
