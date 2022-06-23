@@ -1,6 +1,12 @@
+.page {
+   &__model {
+   }
+}
 .model {
    background-color: #fff;
    padding: 150px 0px;
+   &__container {
+   }
    &__title {
       font-weight: 700;
       font-size: 36px;
@@ -21,6 +27,8 @@
    &__column {
       flex: 0 1 25%;
       padding: 15px 15px;
+   }
+   &__item {
    }
    &__button-sub {
       display: flex;

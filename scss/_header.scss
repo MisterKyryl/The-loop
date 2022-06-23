@@ -11,6 +11,8 @@
       min-height: 139px;
       align-items: center;
    }
+   &__menu {
+   }
    &__icon-logo {
       font-size: 40px;
       margin: 0px 20px 0px 0px;
@@ -42,11 +44,21 @@
    &__icon {
       display: none;
    }
+   &__body {
+      
+   }
+   &__left {
+   }
    &__right {
       margin: 0px 0px 0px 90px;
    }
+   
+   &__list {
+   }
    &__list > li {
       position: relative;
+   }
+   &__item {
    }
    &__item:not(:last-child) {
       margin: 0px 35px 0px 0px;
@@ -58,6 +70,8 @@
    }
    &__link:hover {
       text-decoration: underline;
+   }
+   &__link-burger {
    }
    &__sub-list {
       position: absolute;
