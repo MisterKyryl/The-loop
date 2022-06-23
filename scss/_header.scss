@@ -11,7 +11,9 @@
       min-height: 139px;
       align-items: center;
    }
-   &__menu {
+   &__icon-logo {
+      font-size: 40px;
+      margin: 0px 20px 0px 0px;
    }
    &__logo {
       display: flex;
@@ -26,10 +28,6 @@
    }
 }
 // ---------------Логотип-------------
-._icon-logo {
-   font-size: 40px;
-   margin: 0px 20px 0px 0px;
-   }
 .text__logo {
    font-size: 24px;
    font-weight: 700;
@@ -44,21 +42,11 @@
    &__icon {
       display: none;
    }
-   &__body {
-      
-   }
-   &__left {
-   }
    &__right {
       margin: 0px 0px 0px 90px;
    }
-   
-   &__list {
-   }
    &__list > li {
       position: relative;
-   }
-   &__item {
    }
    &__item:not(:last-child) {
       margin: 0px 35px 0px 0px;
@@ -70,8 +58,6 @@
    }
    &__link:hover {
       text-decoration: underline;
-   }
-   &__link-burger {
    }
    &__sub-list {
       position: absolute;
@@ -242,9 +228,9 @@ body._touch .menu__list > li._active .menu__sub-list {
       &__cart {
          margin: 0px;
       }
-   }
-   ._icon-logo {
-      margin: 0px 7px 0px 0px;
+      &__icon-logo {
+         margin: 0px 7px 0px 0px;
+      }
    }
    ._icon-cart {
       transform: translate(-100%, 0px);

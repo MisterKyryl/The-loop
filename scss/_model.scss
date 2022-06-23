@@ -1,12 +1,6 @@
-.page {
-   &__model {
-   }
-}
 .model {
    background-color: #fff;
-   padding: 150px 0px 152px 0px;
-   &__container {
-   }
+   padding: 150px 0px;
    &__title {
       font-weight: 700;
       font-size: 36px;
@@ -27,8 +21,6 @@
    &__column {
       flex: 0 1 25%;
       padding: 15px 15px;
-   }
-   &__item {
    }
    &__button-sub {
       display: flex;
@@ -106,12 +98,17 @@
 }
 @media (max-width: 999px) {
    .model {
-      padding: 100px 0px 100px 0px;
+      padding: 100px 0px;
       &__title {
          margin: 0px 0px 50px 0px;
       }
       &__button {
          margin: 50px 0px 0px 0px;
       }
+   }
+}
+@media (max-width: 767px) {
+   .model {
+      padding: 50px 0px;
    }
 }
