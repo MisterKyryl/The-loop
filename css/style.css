@@ -5,8 +5,8 @@
   padding: 0;
   margin: 0;
   border: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+webkit-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 a {
@@ -87,6 +87,7 @@ body._lock {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  cursor: pointer
 }
 
 .header {
