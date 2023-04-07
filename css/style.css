@@ -203,11 +203,13 @@ body._lock {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
+  cursor: pointer;
 }
 
 ._icon-cart {
   color: #212121;
   font-size: 30px;
+  cursor: pointer;
 }
 
 ._icon-five {
